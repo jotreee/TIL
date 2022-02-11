@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="01_nav_footer.css">
+  <link rel="stylesheet" href="03_community.css">
+
+  <title>Community</title>
+</head>
+<body>
+
+  <!-- 01_nav_footer.html -->
+  <!-- 01_nav_footer 에서 완성한 Navigation bar 코드를 붙여넣어 주세요. -->
+  <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="02_home.html">
+        <img src="images/logo.png" alt="" width="130">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="02_home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="03_Community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#loginModal" data-bs-toggle="modal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="modal" id="loginModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">ID</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-12">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 03_community.html -->
+  <div class="main text-center">
+    <h1><strong>Community</strong></h1>
+    <!-- Sidebar -->
+    <aside>
+      <ul class="list-groupmx-5 mt-4">
+        <li class="list-group-item offset-0 col-12 offset-lg-1 col-lg-1">
+          <a href="#" class="text-decoration-none">Boxoffice</a>
+        </li>
+        <li class="list-group-item offset-0 col-12 offset-lg-1 col-lg-1">
+          <a href="#" class="text-decoration-none">Movies</a>
+        </li>
+        <li class="list-group-item offset-0 col-12 offset-lg-1 col-lg-1">
+          <a href="#" class="text-decoration-none">Genres</a>
+        </li>
+        <li class="list-group-item offset-0 col-12 offset-lg-1 col-lg-1">
+          <a href="#" class="text-decoration-none">Actor</a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- Board -->
+    <section class="mx-5">
+      <div class="d-none d-lg-block">
+        <table class="table table-striped my-5">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">영화 제목</th>
+              <th scope="col">글 제목</th>
+              <th scope="col">작성자</th>
+              <th scope="col">작성 시간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">초코</th>
+              <td>SSAFY</td>
+              <td>삼성</td>
+              <td>12:34:56</td>
+            </tr>
+            <tr>
+              <th scope="row">딸기</th>
+              <td>7기</td>
+              <td>네이버</td>
+              <td>12:34:56</td>
+            </tr>
+            <tr>
+              <th scope="row">아라리</th>
+              <td>구미</td>
+              <td>카카오</td>
+              <td>12:34:56</td>
+            </tr>
+            <tr>
+              <th scope="row">첵스</th>
+              <td>2반</td>
+              <td>쿠팡</td>
+              <td>12:34:56</td>
+            </tr>
+            <tr>
+              <th scope="row">육회비빔밥</th>
+              <td>파이팅!</td>
+              <td>라인</td>
+              <td>12:34:56</td>
+            </tr>
+            <tr>
+              <th scope="row">마라탕</th>
+              <td>♥</td>
+              <td>배민</td>
+              <td>12:34:56</td>
+            </tr>
+            <tr>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div>
+        <article class="col-12">
+          <div class="d-block d-lg-none">
+            <hr class="m-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span class="posting-title">SSAFY</span>
+                <span class="writer">삼성</span><br><br>
+                <span class="movie-title">초코</span><br>
+                <span class="register-time">12:34:56</span>
+              </li>
+              <li class="list-group-item">
+                <span class="posting-title">7기</span>
+                <span class="writer">네이버</span><br><br>
+                <span class="movie-title">딸기</span><br>
+                <span class="register-time">12:34:56</span>
+              </li>
+              <li class="list-group-item">
+                <span class="posting-title">구미</span>
+                <span class="writer">카카오</span><br><br>
+                <span class="movie-title">아라리</span><br>
+                <span class="register-time">12:34:56</span>
+              </li>
+              <li class="list-group-item">
+                <span class="posting-title">2반</span>
+                <span class="writer">쿠팡</span><br><br>
+                <span class="movie-title">회</span><br>
+                <span class="register-time">12:34:56</span>
+              </li>
+              <li class="list-group-item">
+                <span class="posting-title">파이팅!</span>
+                <span class="writer">라인</span><br><br>
+                <span class="movie-title">육회비빔밥</span><br>
+                <span class="register-time">12:34:56</span>
+              </li>
+              <li class="list-group-item">
+                <span class="posting-title">♥</span>
+                <span class="writer">배민</span><br><br>
+                <span class="movie-title">마라탕</span><br>
+                <span class="register-time">12:34:56</span>
+              </li>
+            </ul>
+            <hr class="m-3">
+          </div>
+        </article>
+      </div>
+      <nav aria-label="...">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">2</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+
+  <!-- 01_nav_footer.html -->
+  <!-- 01_nav_footer 에서 완성한 Footer 코드를 붙여넣어 주세요. -->
+  <footer class="fixed-bottom d-flex flex-column justify-content-center align-items-center py-3">
+    <span>조경수</span>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>  
+</body>
+</html>
