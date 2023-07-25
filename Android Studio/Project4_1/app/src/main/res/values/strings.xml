@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project4_1</string>
+    <string name="num1">숫자 1</string>
+    <string name="num2">숫자 2</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiple">*</string>
+    <string name="divide">/</string>
+</resources>
