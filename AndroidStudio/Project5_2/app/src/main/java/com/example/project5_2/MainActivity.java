@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         multiple = (Button) findViewById(R.id.multiple);
         divide = (Button) findViewById(R.id.divide);
 
+        btn0 = (Button) findViewById(R.id.btn0);
     }
 }
