@@ -21,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
         minus = (Button) findViewById(R.id.minus);
         multiple = (Button) findViewById(R.id.multiple);
         divide = (Button) findViewById(R.id.divide);
-        for (int i = 0; i < 10; i++) {
-            
-        }
 
     }
 }
