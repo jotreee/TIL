@@ -9,6 +9,39 @@
             android:id="@+id/num1"
             android:hint="숫자1"/>
 
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/purple_200"
+                android:text="4" />
+        </TableRow>
+
     </TableRow>
 
     <TableRow>
@@ -19,34 +52,6 @@
             android:layout_height="match_parent"
             android:layout_span="5"
             android:hint="숫자2" />
-    </TableRow>
-
-    <TableRow>
-        <Button
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/purple_200"
-            android:id="@+id/btn0"
-            android:text="0"/>
-        <Button
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/purple_200"
-            android:id="@+id/btn1"
-            android:text="1"/>
-        <Button
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/purple_200"
-            android:id="@+id/btn2"
-            android:text="2"/>
-        <Button
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/purple_200"
-            android:id="@+id/btn3"
-            android:text="3"/>
-        <Button
-            android:layout_margin="5dp"
-            android:backgroundTint="@color/purple_200"
-            android:id="@+id/btn4"
-            android:text="4"/>
     </TableRow>
 
     <TableRow>
