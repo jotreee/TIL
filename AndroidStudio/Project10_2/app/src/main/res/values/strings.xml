@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">그림 투표</string>
+    <string name="result">투표 종료</string>
+    <string name="img1">할 수 있따</string>
+    <string name="img2">온 세상이 나를 도와</string>
+    <string name="img3">좋은 하루 보내</string>
+    <string name="img4">거친 세상에서 살아남기</string>
+    <string name="img5">행복과 행운 가득한 하루 되세요</string>
+    <string name="img6">기 죽지 마라</string>
+    <string name="img7">울지말고 강해져라</string>
+    <string name="img8">수 많은 빵빠레가 인생에 가득하길</string>
+    <string name="img9">그냥 다 잘 된다</string>
+</resources>
