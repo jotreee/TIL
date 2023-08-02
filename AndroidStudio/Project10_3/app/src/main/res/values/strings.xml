@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">계산기</string>
+    <string name="num1">숫자1</string>
+    <string name="num2">숫자2</string>
+    <string name="plus">더하기</string>
+    <string name="minus">빼기</string>
+    <string name="multiple">곱하기</string>
+    <string name="divide">나누기</string>
+    <string name="calculate">계산하기</string>
+</resources>
