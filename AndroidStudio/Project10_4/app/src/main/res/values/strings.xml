@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project10_4</string>
+    <string name="dial">전화 걸기</string>
+    <string name="web">홈페이지 열기</string>
+    <string name="search">검색하기</string>
+    <string name="msg">문자 보내기</string>
+    <string name="camera">사진 찍기</string>
+</resources>
