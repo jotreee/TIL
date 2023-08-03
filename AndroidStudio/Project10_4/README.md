@@ -15,7 +15,7 @@ Intent intent = new Intent(Intent.ACTION);
 intent.setData(Uri.parse(" "));
 ```
 
-ACTION 메서드?(ctrl+click해보니 string이라고 나온다. 명령어인가,,,)는 uri와 세트로 쓰이는 경우가 많은 것 같다. 파싱한 uri를 한 번에 Intent를 선언하면서 넣는 방법과 선언 후 setData로 넣는 방법 두 가지가 있다.
+인텐터 필터인 ACTION은 uri와 세트로 쓰이는 경우가 많은 것 같다. 파싱한 uri를 한 번에 Intent를 선언하면서 넣는 방법과 선언 후 setData로 넣는 방법 두 가지가 있다.
 
 ACTION_WEB_SEARCH 같은 경우에는 액션만 선언하고 putExtra로 검색어를 집어넣길래 ACTION_DIAL에서 똑같이 해보았는데, DIAL은 uri를 필요로 하는 액션이고 putExtra에는 string이 들어가서 적용되지 않았다. 인텐트에 uri를 넣을 수 있는 putData를 사용하니 잘 적용이 되었다.
 
@@ -27,8 +27,8 @@ Button btn = (Button) findViewById(R.id.btn);
 
 그런데 생각해보니 나는 xml파일에서 이미 btn을 버튼으로 만들었는데 굳이 (Button)을 써서 형변환을 다시 해야하나? 싶어 떼보니 잘 돌아갔다ㅎㅎ
 
+예전에는 아이디만으로 버튼인걸 인지를 못해서 형변환을 붙여줬다는데 이제는 안그래도 된다는 것 같다.
+
 스스로 생각하고 고민해보는 법을 점점 익혀가는 것 같아 뿌듯하다
 
 얼른 자바공부하면서 더 많이, 깊게 고민해보고 싶다 히힣
-
-해보니 위젯을 다른 위젯으로 형변환이 되는것도 아니었다... 그럼 왜 붙이는거지?0?
