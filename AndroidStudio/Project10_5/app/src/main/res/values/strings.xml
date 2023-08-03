@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project10_5</string>
+    <string name="dial">전화걸기</string>
+    <string name="finish">끝내기</string>
+</resources>
