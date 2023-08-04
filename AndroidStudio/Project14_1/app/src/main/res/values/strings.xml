@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project14_1</string>
+    <string name="start">음악 재생</string>
+    <string name="pause">음악 중지</string>
+</resources>
